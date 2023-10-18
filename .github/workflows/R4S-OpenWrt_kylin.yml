@@ -65,7 +65,7 @@ jobs:
     - name: QTMDFW4
       run: |
         cd openwrt
-        cp -rf ../SEED/R4S/config.seed .config
+        cp -rf ../SEED/R4S/config_kylin.seed .config
         /bin/bash 07_fw3.sh
     - name: Convert Translation
       run: |
